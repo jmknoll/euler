@@ -15,6 +15,7 @@ var findFibs = function(max) {
 			sum += fibNums[x];
 	};
 	return sum
+	
 }
 
 document.write(findFibs(4000000));
