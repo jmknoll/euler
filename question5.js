@@ -19,6 +19,6 @@ function findSmallestMultiple(nums) {
   }
 }
 
-const vals = [...Array(21).keys()].slice(1);
+const vals = [...Array(20).keys()].map(el => ++el);
 let answer = findSmallestMultiple(vals);
 console.log(answer);
